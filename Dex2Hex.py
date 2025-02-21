@@ -11,14 +11,13 @@ def decimal_to_hex(decimal_value):
         hexadecimal = hex_chars[rem] + hexadecimal
         num //= 16
     print(f"Hexadecimal representation is : {hexadecimal}")
-
     return hexadecimal 
 
 if __name__ == "__main__":
     if len(sys.argv) > 1:
         try:
             decimal_value = int(sys.argv[1])
-            decimal_to_hex(decimal_value)
+            hexadecimal = decimal_to_hex(decimal_value)
         except ValueError:
             print("Please provide a valid integer.")
     else:
