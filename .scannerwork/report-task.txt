@@ -1,0 +1,6 @@
+projectKey=dex2hex
+serverUrl=http://54.224.42.239:9000
+serverVersion=25.2.0.102705
+dashboardUrl=http://54.224.42.239:9000/dashboard?id=dex2hex
+ceTaskId=a485285d-6dac-420b-908b-1fa501b0181e
+ceTaskUrl=http://54.224.42.239:9000/api/ce/task?id=a485285d-6dac-420b-908b-1fa501b0181e
