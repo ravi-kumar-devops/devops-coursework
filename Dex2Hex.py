@@ -19,7 +19,6 @@ if __name__ == "__main__":
         try:
             decimal_value = int(sys.argv[1])
             decimal_to_hex(decimal_value)
-            print(f"Converting {hexadecimal} back to decimal: {int(hexadecimal, 16)}")
         except ValueError:
             print("Please provide a valid integer.")
     else:
